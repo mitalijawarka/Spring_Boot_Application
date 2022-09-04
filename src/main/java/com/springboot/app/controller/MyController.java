@@ -74,7 +74,7 @@ public class MyController {
 		
 	}
 	
-	@PostMapping(path="/saveTrackList")
+	@PostMapping(path="/trackValue")
 	public String saveTrackList(@RequestBody List<Track>trackList)
 	{
 		return trackservice.saveTrackList(trackList);
